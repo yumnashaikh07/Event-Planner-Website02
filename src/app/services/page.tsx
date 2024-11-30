@@ -54,8 +54,8 @@ export default function Services() {
       </div> 
 <section>
     <div className="flex flex-col ">
-        <h1 className="text-5xl font-thin text-center text-[#c0a249]  items-center mt-9">C O R P O R A T E  </h1>
-        <h1 className="text-5xl font-thin text-center text-[#c0a249]  items-center mb-7 mt-5">E V E N T S</h1>
+        <h1 className="text-4xl font-thin text-center text-[#c0a249]  items-center mt-9">C O R P O R A T E</h1>
+        <h1 className="text-4xl font-thin text-center text-[#c0a249]  items-center mb-7 mt-5">E V E N T S</h1>
     </div>
  
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:mb-0 mb-9 space-y-7 md:space-y-0 md:space-x-7 ">

@@ -9,7 +9,7 @@ import {
 
 export default function MyCarousel() {
   return (
-    <main className="p-11 mx-auto md:p-0 bg-gray-100 flex flex-col justify-center items-center">
+    <main className="p-14 mx-auto md:p-0 bg-gray-100 flex flex-col justify-center items-center">
       <section className="md:mt-24">
         <h1 className="text-5xl font-thin flex flex-col text-center mb-9 text-[#c0a249]">
           G A L L E R Y

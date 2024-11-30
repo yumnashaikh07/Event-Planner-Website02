@@ -14,7 +14,7 @@ export default function Header() {
             alt="logo"
           />
         </div>
-        <div className="text-3xl font-extralight   md:ml-60">
+        <div className="text-xl md:text-3xl font-extralight   md:ml-60">
           RAYS EVENTS
         </div>
         <nav className="md:flex md:justify-between md:items-center hidden flex-items-end justify-end ">

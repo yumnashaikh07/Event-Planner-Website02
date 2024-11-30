@@ -19,7 +19,7 @@ import { Button } from "./ui/button";
     <SheetHeader>
       <SheetTitle className="text-[#c0a249]  font-thin text-3xl flex justify-center">RAYS EVENTS</SheetTitle>
       <SheetDescription className="flex flex-col">
-        <Button><Link href={"/serviceselection"} className="text-xl font text-white mt-9 px-16 hover:text-[#c0a249] hover:bg-white py-5 bg-[#c0a249]">
+        <Button><Link href={"/serviceselection"} className="text-xl font text-white mt-9 px-10 md:px-16 hover:text-[#c0a249] hover:bg-white py-5 bg-[#c0a249]">
         Book Your Slot Now
         </Link>
         </Button>

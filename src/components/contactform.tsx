@@ -338,8 +338,8 @@ const ContactForm = () => {
   }
 
   return (
-    <main className="bg-[#d7d5d5] md:w-[500px] mx-auto  md:h-[500px] md:p-10 p-20  text-black font">
-      <h2 className="mb-3 font-medium text-2xl md:text-3xl text-[#6a6044] text-center">
+    <main className="bg-[#d7d5d5] md:w-[500px] mx-auto  md:h-[500px] md:p-10 p-5  text-black font">
+      <h2 className="mb-3 font-medium text-2xl md:text-3xl mt-5 md:mt-0 text-[#6a6044] text-center">
         Please Fill out this Form!
       </h2>
       {submitted && <p className="text-[#c0a249]  mt-4">Message sent successfully!</p>}

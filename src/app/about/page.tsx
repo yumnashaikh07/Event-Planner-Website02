@@ -15,7 +15,7 @@ export default function About (){
             className="mx-auto "
             />
         </div>
-        <div className=" bg-[#efeded] md:w-[500px] md:h-[630px] p-28 md:p-20  text-black font flex flex-col items-center justify-center  ">
+        <div className=" bg-[#efeded] md:w-[500px] md:h-[630px] p-20 md:p-20  text-black font flex flex-col items-center justify-center  ">
         <h1 className=" text-8xl font">&quot;</h1>
            <h1 className="text-5xl">Making Dreams</h1>
            <h1 className=" my-5 text-5xl"> Come True</h1> 
@@ -30,7 +30,7 @@ export default function About (){
 
 
     <section className="grid  grid-cols-1 md:grid-cols-2  mx-auto  mt-24 md:mx-28 ">
-    <div className=" bg-[#efeded]  md:w-[500px]  md:h-[590px] p-28 md:p-20  text-black font flex flex-col items-center justify-center  ">
+    <div className=" bg-[#efeded]  md:w-[500px]  md:h-[590px] p-20 md:p-20  text-black font flex flex-col items-center justify-center  ">
         <h1 className=" text-8xl font">&quot;</h1>
            <h1 className="text-5xl">Turning Vision </h1>
            <h1 className=" my-5 text-5xl"> into Reality</h1> 

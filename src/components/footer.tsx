@@ -2,7 +2,7 @@ import Link from "next/link"
 import { FaGithub, FaInstagram, FaLinkedin, FaPinterest } from "react-icons/fa"
 export default function Footer (){
     return(
-        <main className=" flex justify-center  bg-[#8d7632]  mx-auto p-5 md:mx-9 md:my-9 h-[450px] md:h-72 ">
+        <main className=" flex justify-center  bg-[#8d7632]  mx-auto p-5 md:mx-9 md:my-9 h-[500px] md:h-72 ">
             <section className="md:flex md:justify-between font  md:p-11">
 <div className=" text-white  md:mx-10  flex-col" >
 <h1>500 Terry Francine</h1>
@@ -49,7 +49,7 @@ export default function Footer (){
         <FaLinkedin size={21} />
     </a>
     <a
-        href=""
+        href="https://www.linkedin.com/in/yumna-shaikh-b90191337?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Pintrest">
@@ -57,6 +57,9 @@ export default function Footer (){
     </a>
     </div>
     <Link href={"/serviceselection"} className="text-xl  px-12 py-5  text-white mt-3 md:mt-9 md:px-20 hover:text-[#c0a249] hover:bg-white md:py-5 bg-[#c0a249]">BOOK NOW</Link>
+<div>
+    <p className="text-md mt-5 text-white">&copy; {new Date().getFullYear()}RAYS Events. All rights reserved.</p>
+</div>
 </div>
     </section>
         </main>

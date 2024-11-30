@@ -26,7 +26,7 @@ export default function Contact() {
           <p className="text-xl mt-2"> We provide customized solutions,ensuring </p>
           <p className="text-xl mt-2">  flawless execution and unforgettable experiences </p>
           <p className="text-xl mt-2"> for any occasion, big or small.</p>
-            <div className="text-lg mt-20 flex flex-col text-white font text-center p-9">
+            <div className="text-lg mt-20 flex flex-col text-[#c0a249] font text-center p-9">
             <h1>Tel: +92 3132570307</h1>
             <h1>info@mysite.com</h1>
             <h1>Fax: 123-456-7890</h1>
@@ -38,7 +38,7 @@ export default function Contact() {
             width={485}
             height={600}
             alt=""
-            className="md:mt-7 mx-auto"/>
+            className="mx-auto"/>
     </div>
 </section>
     </main>

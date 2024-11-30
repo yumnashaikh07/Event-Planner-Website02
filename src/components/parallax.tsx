@@ -33,9 +33,9 @@ const Parallax = () => {
         style={{
           transform: `translateY(${-scrollPosition * 1}px)`
         }}
-      >  <h1 className="text-4xl md:text-6xl font font-thin mb-9">C r e a t i n g</h1>
-        <h1 className="text-4xl md:text-6xl font font-thin mb-9">U n f o r g e t t a b l e</h1>
-        <h1 className="text-4xl md:text-6xl font font-thin">M e m o r i e s</h1>
+      >  <h1 className="text-3xl md:text-6xl font font-thin mb-9">C r e a t i n g</h1>
+        <h1 className="text-3xl md:text-6xl font font-thin mb-9">U n f o r g e t t a b l e</h1>
+        <h1 className="text-3xl md:text-6xl font font-thin">M e m o r i e s</h1>
         <Link href={"/serviceselection"}><button className=' md:px-24 px-10 py-3 md:py-5 mt-7 bg-[#c0a249] border-2  hover:bg-white hover:text-[#c0a249] border-white  font text-xl md:text-2xl'>BOOK YOUR SLOT</button></Link>
         <FaArrowDown className='mt-2 md:h-20' size={37}/>
         </div>
