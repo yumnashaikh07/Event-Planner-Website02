@@ -38,12 +38,12 @@ export default function HeroSection() {
 
         <section className="md:mt-3 mt-9">
           <h1 className=" text-3xl md:text-5xl font-thin flex flex-col ml-16 md:ml-0 md:text-center md:mb-9 text-[#c0a249]" >T E S T I M O N A L S</h1>
-        <Carousel className="md:p-5 my-3 mx-28 md:mx-48">
+        <Carousel className="md:p-5 my-3 mx-20 md:mx-48">
   <CarouselContent >
     
     <CarouselItem>
-    <h1 className="md:text-9xl text-5xl font-serif  ml-[83px] mt-3 md:mt-0 md:ml-[390px]">&quot;</h1>
-    <div  className="flex flex-col text-center items-center font">
+    <h1 className="md:text-9xl text-white md:text-black  font-serif  mt-3 md:mt-0 md:ml-[390px]">&quot;</h1>
+    <div  className="flex flex-col text-center mt-5 items-center font">
       <h1 className="md:text-5xl text-3xl md:my-5">Exceptional service! </h1>
       <h1 className="md:text-5xl text-3xl">Made our event unforgettable.</h1>
       <h1 className="md:text-5xl text-3xl md:my-5">Highly recommend them!</h1>
@@ -52,9 +52,9 @@ export default function HeroSection() {
     </CarouselItem> 
 
 
-    <CarouselItem> <h1 className="md:text-9xl text-5xl font-serif  ml-[83px] mt-3 md:mt-0 md:ml-[390px]">&quot;</h1>
+    <CarouselItem><h1 className="md:text-9xl text-white md:text-black font-serif mt-3 md:mt-0 md:ml-[390px]">&quot;</h1>
     <div  className="flex flex-col text-center items-center font">
-      <h1 className="md:text-5xl text-3xl md:my-5 ">Amazing attention to detail!</h1>
+      <h1 className="md:text-5xl text-3xl md:my-5 mt-5 ">Amazing attention to detail!</h1>
       <h1 className="md:text-5xl text-3xl  ">They turned our vision into reality </h1>
       <h1 className="md:text-5xl text-3xl md:my-5 ">perfectly</h1>
       <h3 className="md:text-2xl text-xl text-[#c0a249] my-9">James Thompson</h3>
@@ -62,9 +62,9 @@ export default function HeroSection() {
     </CarouselItem>
 
 
-    <CarouselItem>  <h1 className="md:text-9xl text-5xl font-serif  ml-[83px] mt-3 md:mt-0 md:ml-[390px]">&quot;</h1>
+    <CarouselItem>  <h1 className="md:text-9xl text-white md:text-black font-serif  mt-3 md:mt-0 md:ml-[390px]">&quot;</h1>
     <div  className="flex flex-col text-center items-center font">
-      <h1 className="md:text-5xl text-3xl md:my-5 ">Professional, creative, and organized. </h1>
+      <h1 className="md:text-5xl text-3xl md:my-5 mt-5">Professional, creative, and organized. </h1>
       <h1 className="md:text-5xl text-3xl">Truly exceeded our expectations</h1>
       <h1 className="md:text-5xl text-3xl md:my-5">for the event</h1>
       <h3 className="md:text-2xl text-xl  text-[#c0a249] my-9"> Emily Johnson</h3> 
