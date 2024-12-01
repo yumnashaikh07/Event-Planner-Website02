@@ -3,7 +3,7 @@ import { FaGithub, FaInstagram, FaLinkedin, FaPinterest } from "react-icons/fa"
 export default function Footer (){
     return(
         <main className=" flex justify-center  bg-[#8d7632]  mx-auto p-5 md:mx-9 md:my-9 h-[500px] md:h-72 ">
-            <section className="md:flex md:justify-between font  md:p-11">
+            <section className="md:flex md:justify-between text-center font  md:p-11">
 <div className=" text-white  md:mx-10  flex-col" >
 <h1>500 Terry Francine</h1>
 <h2>Street San Francisco</h2>
@@ -26,7 +26,7 @@ export default function Footer (){
     <h1><Link href={"PERSONAL PORTFOLIO LINK"} className="hover:underline font-thin ">RAYS Tech & Design</Link></h1>
 </div>
 <div className="flex flex-col  ">
-<div className="text-white flex md:justify-between my-3  space-x-11 md:space-x-5">
+<div className="text-white flex md:justify-between justify-center my-3  space-x-11 md:space-x-5">
     <a
         href="https://github.com/yumnashaikh07"
         target="_blank"
@@ -56,7 +56,7 @@ export default function Footer (){
         <FaPinterest size={21} />
     </a>
     </div>
-    <Link href={"/serviceselection"} className="text-xl  px-12 py-5  text-white mt-3 md:mt-9 md:px-20 hover:text-[#c0a249] hover:bg-white md:py-5 bg-[#c0a249]">BOOK NOW</Link>
+    <Link href={"/serviceselection"} className="text-xl  px-32 py-5  text-white mt-3 md:mt-9 md:px-20 hover:text-[#c0a249] hover:bg-white md:py-5 bg-[#c0a249]">BOOK NOW</Link>
 <div>
     <p className="text-md mt-5 text-white">&copy; {new Date().getFullYear()}RAYS Events. All rights reserved.</p>
 </div>

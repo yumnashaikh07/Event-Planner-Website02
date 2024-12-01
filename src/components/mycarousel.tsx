@@ -11,7 +11,7 @@ export default function MyCarousel() {
   return (
     <main className="p-14 mx-auto md:p-0 bg-gray-100 flex flex-col justify-center items-center">
       <section className="md:mt-24">
-        <h1 className="text-5xl font-thin flex flex-col text-center mb-9 text-[#c0a249]">
+        <h1 className="text-3xl md:text-5xl font-thin flex flex-col text-center mb-9 text-[#c0a249]">
           G A L L E R Y
         </h1>
         <Carousel className="my-3 md:p-16   md:mx-20">
