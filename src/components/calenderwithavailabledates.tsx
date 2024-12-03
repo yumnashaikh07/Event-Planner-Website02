@@ -3,8 +3,7 @@
 import Link from "next/link";
 import { useState } from 'react';
 import Flatpickr from 'react-flatpickr'; 
-import 'flatpickr/dist/flatpickr.css'; // Import Flatpickr's default styles (if you don't want the default theme, skip this line)
-
+import 'flatpickr/dist/flatpickr.css';
 const mockAvailableDatesWithSlots = [
   { date: new Date(2024, 10, 30), slots: ["9:00 AM", "10:00 AM", "11:00 AM", "12:00 PM", "1:00 PM", "2:00 PM", "3:00 PM", "4:00 PM", "4:30 PM"] },
   { date: new Date(2024, 11, 3), slots: ["9:00 AM", "10:00 AM", "11:00 AM", "12:00 PM", "1:00 PM", "2:00 PM", "3:00 PM", "4:00 PM", "4:30 PM"] },
@@ -71,9 +70,6 @@ export default function FlatpickrWithSlots() {
           
           className="w-72 p-4 border mb-5 rounded-lg shadow-lg text-[#c0a249] font "
         />
-
-
-      {/* Available Slots Section */}
       {selectedDate && availableSlots.length > 0 && (
         <div className="mt-8">
           <h3 className="text-2xl font-thin text-[#c0a249] text-center mb-4">
@@ -95,8 +91,8 @@ export default function FlatpickrWithSlots() {
   {selectedDate && availableSlots.length > 0 && (
     <Link
       href={{
-        pathname: '/bookingform',  // The booking form page
-        query: { date: selectedDate.toDateString(), slot: availableSlots[0] },  // Pass date and slot to query params
+        pathname: '/bookingform', 
+        query: { date: selectedDate.toDateString(), slot: availableSlots[0] },
       }}
       passHref
     >
@@ -107,8 +103,6 @@ export default function FlatpickrWithSlots() {
   )}
 </div>
 
-
-       {/* No Slots Available Message */}
   {selectedDate && availableSlots.length === 0 && (
       <p className="mt-4 text-center text-lg text-gray-500">No available slots for this date.</p>
      )}   </div>
