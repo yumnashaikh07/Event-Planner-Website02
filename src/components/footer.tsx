@@ -28,28 +28,28 @@ export default function Footer (){
 <div className="flex flex-col  ">
 <div className="text-white flex md:justify-between justify-center my-3  space-x-11 md:space-x-5">
     <a
-        href="https://github.com/yumnashaikh07"
+        href="https://www.instagram.com/rays._.digital/"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Github">
         <FaInstagram size={21} />
     </a>
     <a
-        href="https://github.com/yumnashaikh07"
+        href="https://www.instagram.com/rays._.digital/"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Github">
         <FaGithub size={21} />
     </a>
     <a
-        href="https://www.linkedin.com/in/yumna-shaikh-b90191337?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        href="https://www.instagram.com/rays._.digital/"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="LinkedIn">
         <FaLinkedin size={21} />
     </a>
     <a
-        href="https://www.linkedin.com/in/yumna-shaikh-b90191337?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        href="https://www.instagram.com/rays._.digital/"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Pintrest">
