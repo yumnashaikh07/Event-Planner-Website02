@@ -14,11 +14,11 @@ export default function Header() {
             alt="logo"
           />
         </div>
-        <div className="text-xl md:text-3xl font-extralight   md:ml-60">
-          RAYS EVENTS
+        <div className="text-xl bg-[#c0a249] text-white md:text-4xl font-extralight  md:ml-60">
+         SERENITY PLANNERS
         </div>
         <nav className="md:flex md:justify-between md:items-center hidden flex-items-end justify-end ">
-          <ul className="flex space-x-9 text-lg  font-semibold mr-11 ">
+          <ul className="flex space-x-5 text-lg  font-semibold mr-9 ">
             <li>
               <Link href="/" className="hover:underline">
                 Home
