@@ -20,12 +20,23 @@ const Parallax = () => {
   return (
     <div className="relative h-screen overflow-hidden">
       <div
-        className="absolute top-0 left-0 w-full h-full bg-cover bg-center transition-all duration-75">
+        className="md:flex hidden absolute top-0 left-0 w-full h-full bg-cover bg-center transition-all duration-75">
         <Image
         src={"/event.png"}
+        height={1000}
+        width={1300}
+        alt=''
+        className="md:flex hidden "
+        />
+      </div>
+      <div
+        className="md:hidden flex absolute top-0 left-0 w-full h-full bg-cover bg-center transition-all duration-75">
+        <Image
+        src={"/event2.png"}
         layout="fill"
         objectFit="cover"
         alt=''
+        className='md:hidden flex'
         />
       </div>
         <div

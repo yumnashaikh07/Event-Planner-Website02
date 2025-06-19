@@ -8,17 +8,17 @@ export default function Header() {
         <div className="rounded-lg">
           <Image
             src={"/RAYS (7).png"}
-            className="ml-5  h-[80px] w-[80px] md:h-[110px] md:w-[110px]  "
+            className="ml-7  h-[80px] w-[80px] md:h-[110px] md:w-[110px]  "
             width={110}
             height={110}
             alt="logo"
           />
         </div>
-        <div className="text-xl bg-[#c0a249] text-white md:text-4xl font-extralight  md:ml-60">
+        <div className="text-xl  md:text-4xl font-extralight  md:ml-60">
          SERENITY PLANNERS
         </div>
         <nav className="md:flex md:justify-between md:items-center hidden flex-items-end justify-end ">
-          <ul className="flex space-x-5 text-lg  font-semibold mr-9 ">
+          <ul className="flex space-x-5 text-lg  font-semibold mr-11">
             <li>
               <Link href="/" className="hover:underline">
                 Home
