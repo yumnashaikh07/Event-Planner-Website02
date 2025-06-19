@@ -1,4 +1,3 @@
-import Link from "next/link"
 import { FaGithub, FaInstagram, FaLinkedin, FaPinterest } from "react-icons/fa"
 import { Button } from "./ui/button"
 export default function Footer (){
